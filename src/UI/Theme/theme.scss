@@ -1,0 +1,119 @@
+[data-theme="light"] {
+  --defaultTheme: #EEF1F9;
+  --primaryColor: #0e2348;
+  --secondaryColor: #32a8b8;
+  --defaultWhite: #ffffff;
+  --defaultBlack: #000000;
+  --Disable: #f0f3f7;
+  
+
+  --bgWhite: #ffffff;
+  --bgGunMetal: #262729;
+  --bgBlack: #000000;
+  --bgGray: #4f4d50;
+  --bgOrange: #ce6710;
+  --bgGreen: #2e763e;
+  --bgBlue: #007bff;
+  --bgLightGray: #bbc0c9;
+  --bgLightBlue:#9cb4f5;
+
+  --defaultText: #000000;
+  --textonlydark: #1a1818;
+  --textWhite: #ffffff;
+  --textDark: #3c3535;
+  --textBlack: #000000;
+  --textBlue: #315d8e;
+  --textBlue2: #315d8e;
+  --textOrange: #ce6710;
+  --textRed: #ff0000;
+   --textblk:#ffffff;
+
+  --border1: #CBD5E1;
+  --border2: #CBD5E1;
+  --shadow1: #e2e2e2;
+
+  --navbg: #ffffff;
+  --navlinktext: #0e2348;
+}
+
+[data-theme="dark"] {
+  --defaultTheme: #0F172A;
+  --primaryColor: #0f172a;
+  --secondaryColor: #2b363d;
+  --defaultWhite: #e4e4e4;
+  --defaultBlack: #494242;
+  --Disable: #293546;
+  
+  --bgWhite: #1F2937;
+  --bgGunMetal: #7a7e85;
+  --bgBlack: #ffffff;
+  --bgGray: #7d6e5f;
+  --bgOrange: #cb8243;
+  --bgGreen: #307740;
+  --bgBlue: #004a99;
+  --bgLightGray: #616d85;
+  --bgLightBlue:#263252;
+
+  --defaultText: #bfbfbf;
+  --textonlydark: #1a1818;
+  --textWhite: #ffffff;
+  --textDark: #ffffff;
+  --textBlack: #ffffff;
+  --textBlue: #80a7d3;
+  --textBlue2: #9db6d1;
+  --textOrange: #CD853F;
+  --textRed: #b30000;
+  --textblk:#040404;
+
+  --border1: #475569;
+  --border2: #c6c6c6;
+  --shadow1: #454545;
+
+  --navbg: #212b3982;
+  --navlinktext: #ffffff;
+}
+
+:root {
+  font-size: 62.5%;
+  --fs10: 1rem;
+  --fs11: 1.1rem;
+  --fs12: 1.2rem;
+  --fs13: 1.3rem;
+  --fs14: 1.4rem;
+  --fs15: 1.5rem;
+  --fs16: 1.6rem;
+  --fs17: 1.7rem;
+  --fs18: 1.8rem;
+  --fs20: 2rem;
+  --fs22: 2.2rem;
+  --fs24: 2.4rem;
+  --fs26: 2.6rem;
+  --fs28: 2.8rem;
+  --fs30: 3rem;
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+   background-color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+

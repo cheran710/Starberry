@@ -1,0 +1,123 @@
+.logo {
+  img {
+    width: 16rem;
+    padding: 0.5rem 0.8rem;
+    background-color: var(--defaultWhite);
+    border-radius: 0.5rem;
+  }
+}
+
+.logout {
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+.profileWrap{
+  display: flex;
+}
+
+.UserName{
+  color: var(--defaultText);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--navbg);
+  color: var(--navlinktext);
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+}
+
+
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+  flex: auto;
+  list-style-type: none;
+  padding: 0;
+  color: var(--navlinktext);
+   margin: 0 3.8rem;
+  align-items: center;
+
+  li {
+    margin-left: var(--fs14);
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-size: var(--fs14);
+    }
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
+}
+
+.darktheme {
+  width: 2.5rem;
+}
+.lighttheme {
+  width: 3rem;
+} 
+
+.themeicon {
+  margin-top: 0.2rem;
+  border-radius: 50%;
+}
+
+
+.notification-icon,
+.Logout-icon,
+.profile-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  position: relative;
+  padding: 0.2rem;
+  background-color: white;
+}
+
+.notification-container,
+.Logout-container {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color:var(--textRed);
+  color: white;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
